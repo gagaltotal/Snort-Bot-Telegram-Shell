@@ -1,0 +1,11 @@
+# $Id: local.rules,v 1.11 2004/07/23 20:15:44 bmc Exp $
+# ----------------
+# LOCAL RULES
+# ----------------
+# This file intentionally does not come with signatures.  Put your local
+# additions here.
+
+alert tcp any any -> $HOME_NET 21 (msg:”FTP connection attempt”;sid:10000011; rev:1;)
+alert tcp any any <> $HOME_NET 21 (msg:"FTP failed login"; content:"Login incorrect";sid:10000012; rev:1;)
+alert icmp any any -> $HOME_NET any (msg:”ICMP test”; sid:10000013; rev:1; classtype:icmp-event;)
+alert tcp any any -> $HOME_NET any (msg:”TCP Port Scanning”; detection_filter:track by_src, count 30, seconds 60; sid:1000006; rev:2;)

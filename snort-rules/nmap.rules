@@ -1,0 +1,6 @@
+alert icmp any any -> $HOME_NET any (msg: "NMAP ping sweep Scan"; dsize:0;sid:10000004; rev:1;)
+alert tcp any any -> $HOME_NET 22 (msg: "NMAP TCP Scan";sid:10000005; rev:2; )
+alert tcp any any -> $HOME_NET 22 (msg:"Nmap XMAS Tree Scan";flags:FPU;sid:1000006; rev:3;)
+alert tcp any any -> $HOME_NET 22 (msg:"Nmap FIN Scan";flags:F;sid:1000008; rev:4;)
+alert tcp any any -> $HOME_NET 22 (msg:"Nmap NULL Scan";flags:0;sid:1000009; rev:5;)
+alert udp any any -> $HOME_NET any (msg:"Nmap UDP Scan";sid:1000010; rev:6;)
