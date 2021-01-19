@@ -1,7 +1,7 @@
 # Snort-Bot-Telegram-Shell
 
 #### Gagaltotal.github.io ####
-#### www.gagaltotal666.site ####
+#### www.gagaltotal666.my.id ####
 
 ### installation snort server GNU/Linux ####
 
@@ -67,6 +67,6 @@ sudo snort -i eth0 -c /etc/snort/snort.conf -l /var/log/snort -d -A console > /h
 ## Tutorial Artikel and Video
 
 ```sh
-https://www.gagaltotal666.site/2020/08/ids-snort-bot-telegram-menggunakan-bash.html
+https://www.gagaltotal666.my.id/2020/08/ids-snort-bot-telegram-menggunakan-bash.html
 https://youtu.be/phyYwlgt3Ec
 ```
