@@ -1,7 +1,10 @@
-# Snort-Bot-Telegram-Shell
+# Snort Bot Telegram Bash Shell GNU/Linux
 
-#### Gagaltotal.github.io ####
-#### www.gagaltotal666.my.id ####
+## [Gagaltotal.github.io] or [www.gagaltotal666.my.id] ##
+
+![Screen Capture](https://raw.githubusercontent.com/gagaltotal/Snort-Bot-Telegram-Shell/master/log-snort-telegram.png)
+
+![Screen Capture](https://raw.githubusercontent.com/gagaltotal/Snort-Bot-Telegram-Shell/master/snort-running.png)
 
 ### installation snort server GNU/Linux ####
 
