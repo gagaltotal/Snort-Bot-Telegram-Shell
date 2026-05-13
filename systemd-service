@@ -1,0 +1,14 @@
+# /etc/systemd/system/telegram-monitor-snort.service
+[Unit]
+Description=Telegram Snort Log Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=ghost666
+ExecStart=/home/ghost666/snort-bot-telegram-shell/bot-tele.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
